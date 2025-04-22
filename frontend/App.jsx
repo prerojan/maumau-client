@@ -12,7 +12,7 @@ import {
   useElements,
 } from "@stripe/react-stripe-js";
 
-const stripePromise = loadStripe("pk_test_sua_chave_publica_aqui");
+const stripePromise = loadStripe("pk_test_51RGn9mQa1nVIV6pnNQj70B17LzpBqDcujJgAEDCLDgRFgnASfjIUOaAGmQbMGePek0fCLpQJOyxysgRrQ5XaZ3nJ00melYMeVJ");
 
 function CheckoutForm() {
   const stripe = useStripe();
