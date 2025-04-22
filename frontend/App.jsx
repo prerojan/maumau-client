@@ -28,7 +28,7 @@ function CheckoutForm() {
 
     if (error) return setMessage(error.message);
 
-    const res = await fetch("http://localhost:4242/create-payment-intent", {
+    const res = await fetch("https://maumau-client.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ amount: 5000 }), // valor em centavos (R$50,00)
